@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Index from "./components/Home/index";
+import Index from "./components/Index";
 class App extends Component {
   render() {
     return (
