@@ -1,0 +1,36 @@
+$home-image: url(./a.jpg);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background: $home-image;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container2 {
+        height: 1000vh;
+    }
+    .slide-top {
+        animation: slide-top 1s cubic-bezier(.47, 0.000, .745, .715) reverse forwards
+    }
+}
+
+// .banner {
+//     position: relative;
+//     overflow: hidden;
+//   }
+//   .banner__video {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     width: auto;
+//     min-width: 100%;
+//     height: auto;
+//     min-height: 100%;
+//     transform: translateX(-50%) translateY(-50%);
+//     z-index: -1;
+//   }
