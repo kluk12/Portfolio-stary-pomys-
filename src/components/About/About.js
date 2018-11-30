@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./About.scss";
 import classNames from "classnames";
-import { Grid, withStyles, Avatar, Typography } from "@material-ui/core";
+import { Grid, Avatar, Typography } from "@material-ui/core";
 class About extends Component {
   render() {
     const { classes } = this.props;
