@@ -13,18 +13,20 @@ class About extends Component {
           justify="space-around"
           alignItems="flex-start"
         >
-          <Grid item sm={4} md={4}>
+          <Grid item xs={10} sm={4} md={4} className="poz">
             {/* <div className={classes.row}> */}
             {/* <Avatar
                 alt="Remy Sharp"
                 src="/static/images/remy.jpg"
                 className={classes.avatar}
               /> */}
-            <Avatar alt="Adelle Charles" src="img_a.png" className="avatar" />
+            <Avatar alt="Szymon Kluk" src="./img_a.jpg" className="avatar" />
             {/* </div> */}
           </Grid>
-          <Grid item sm={8} md={8}>
-            <Typography variant="h4">O Mnie</Typography>
+          <Grid item xs={10} sm={8} md={8} className="poz">
+            <Typography variant="h4" className="c">
+              O Mnie
+            </Typography>
             <p className="p">
               lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
               do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -37,7 +39,7 @@ class About extends Component {
     );
   }
 }
-export default withStyles(styles)(About);
+export default About;
 const styles = {
   row: {
     display: "flex",
