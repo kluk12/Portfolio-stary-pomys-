@@ -8,13 +8,14 @@ import "./slick-theme.css";
 class SimpleSlider extends React.Component {
   render() {
     var settings = {
-      dots: true,
+      // dots: true,
       infinite: true,
       speed: 500,
       autoplay: true,
       centerMode: true,
-      focusOnSelect: true,
-      rows: 1,
+      // focusOnSelect: true,
+      // rows: 1,
+      centerPadding: 90,
       slidesToShow: 4,
       slidesToScroll: 2
     };
@@ -59,6 +60,12 @@ class SimpleSlider extends React.Component {
         <div>
           <img
             src="http://webdevnatalia.com/img/logos/sass.png"
+            alt="Tekst alternatywny"
+          />
+        </div>
+        <div>
+          <img
+            src="http://webdevnatalia.com/img/logos/jqueryn.png"
             alt="Tekst alternatywny"
           />
         </div>
